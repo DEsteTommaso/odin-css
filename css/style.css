@@ -1,0 +1,60 @@
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  margin:0;
+  padding:0;
+  
+}
+
+.container{
+    height: 450px;
+}
+
+.flexorr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.flexvert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    gap: 10px;
+}
+
+#pulsante1{
+    background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+
+  width: 50%;
+}
+
+#primo{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+#secondo{
+
+}
+
+#terzo{
+    background-color: #E5E7EB;
+}
+
+#quarto{
+
+}
